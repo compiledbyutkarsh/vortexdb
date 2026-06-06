@@ -71,15 +71,15 @@ cargo build --release
 
 Connect using any raw TCP tool like nc or telnet:
 
-nc 127.0.0.1 8080
+    nc 127.0.0.1 8080
 
 #### Interaction Format:
-SET name utkarsh
-GET name
 
-Response:
-OK
-utkarsh  
+    SET name utkarsh
+    OK
+
+    GET name
+    utkarsh 
 
 ---
 

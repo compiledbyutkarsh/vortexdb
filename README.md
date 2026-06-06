@@ -114,27 +114,4 @@ A high-performance, async, distributed key-value database built from scratch in 
 
 > ⚡ Built for learning systems programming: databases, concurrency, networking, and storage engines.
 
----
-
-## ✨ Features
-
-- ⚡ Async TCP server (Tokio-based)
-- 🧠 In-memory sharded MemTable for high concurrency
-- 📝 Write-Ahead Logging (WAL) for crash durability
-- 💾 SSTable-style segment storage (append-only design)
-- 🔁 Background compaction engine
-- 🌐 Basic replication framework (multi-node async fanout)
-- 📊 Pipelined benchmark client for load testing
-- 🔄 Automatic recovery on startup
-
----
-
-## 🏗️ Architecture
-
-Client → TCP Server → Database Engine  
-&nbsp;&nbsp;&nbsp;&nbsp;│  
-&nbsp;&nbsp;&nbsp;&nbsp;├── WAL (durability layer)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── MemTable (in-memory fast path)  
-&nbsp;&nbsp;&nbsp;&nbsp;├── Segment Files (persistent storage layer)  
-&nbsp;&nbsp;&nbsp;&nbsp;└── Replication Layer (async distributed sync)
 

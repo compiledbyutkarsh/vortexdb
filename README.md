@@ -34,7 +34,7 @@ Client → TCP Server → Database Engine
 
 ### Clone repo
 ```
-git clone https://github.com/<your-username>/vortexdb.git  
+git clone https://github.com/compiledbyutkarsh/vortexdb.git  
 cd vortexdb
 ```
 
@@ -135,11 +135,6 @@ Client → TCP Server → Database Engine
 &nbsp;&nbsp;&nbsp;&nbsp;├── MemTable (in-memory fast path)  
 &nbsp;&nbsp;&nbsp;&nbsp;├── Segment Files (persistent storage layer)  
 &nbsp;&nbsp;&nbsp;&nbsp;└── Replication Layer (async distributed sync)
-
----
-
-## ⚙️ How to Run
-
 ### 1. Clone repository
 ```bash
 git clone https://github.com/<your-username>/vortexdb.git

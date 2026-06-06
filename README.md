@@ -33,20 +33,29 @@ Client → TCP Server → Database Engine
 ## ⚙️ How to Run
 
 ### Clone repo
+```
 git clone https://github.com/<your-username>/vortexdb.git  
-cd vortexdb  
+cd vortexdb
+```
 
 ### Build
-cargo build --release  
+```
+cargo build --release
+```
 
 ### Run server
-./target/release/vortexdb  
+```
+./target/release/vortexdb
+```
 
 ### Run replica (optional)
+```
 ./target/release/replica  
-
+```
 ### Run benchmark
-./target/release/benchmark  
+```
+./target/release/benchmark
+``` 
 
 ---
 

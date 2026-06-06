@@ -67,16 +67,18 @@ cargo build --release
 
 ---
 
-## 🧪 Example Usage
+## 📝 Example Usage
+
+Connect using any raw TCP tool like nc or telnet:
 
 nc 127.0.0.1 8080
 
-SET name utkarsh  
-GET name  
+#### Interaction Format:
+SET name utkarsh
+GET name
 
 Response:
-
-OK  
+OK
 utkarsh  
 
 ---

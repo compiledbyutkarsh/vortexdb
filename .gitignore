@@ -1,0 +1,9 @@
+target/
+vortex.wal
+vortex.segment
+
+*.log
+*.db
+*.tmp
+
+.DS_Store

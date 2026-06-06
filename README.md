@@ -111,10 +111,4 @@ utkarsh
 - Raft consensus
 - Full LSM-tree compaction
 - Compression + Bloom filters
-- Query planner layer# 🚀 VortexDB
-
-A high-performance, async, distributed key-value database built from scratch in Rust.
-
-> ⚡ Built for learning systems programming: databases, concurrency, networking, and storage engines.
-
-
+- Query planner layer

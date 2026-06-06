@@ -75,15 +75,15 @@ Connect using any raw TCP client like `nc` or `telnet`:
 nc 127.0.0.1 8080
 ```
 
-#### Interaction Format:
+### Interaction Format
 
-    SET name utkarsh
-    Response:
-    OK
+```
+SET name utkarsh
+OK
 
-    GET name
-    Response:
-    utkarsh
+GET name
+utkarsh
+```
 ---
 
 ## 🧠 Concepts Used

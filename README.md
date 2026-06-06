@@ -69,18 +69,21 @@ cargo build --release
 
 ## 📝 Example Usage
 
-Connect using any raw TCP tool like nc or telnet:
+Connect using any raw TCP client like `nc` or `telnet`:
 
-    nc 127.0.0.1 8080
+```bash
+nc 127.0.0.1 8080
+```
 
 #### Interaction Format:
 
     SET name utkarsh
+    Response:
     OK
 
     GET name
-    utkarsh 
-
+    Response:
+    utkarsh
 ---
 
 ## 🧠 Concepts Used
